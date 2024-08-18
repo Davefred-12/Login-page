@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Page with Hamburger Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>My Portfolio</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <button id="submit">Contact Me</button>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-1">
+        <h1>Welcome to My Portfolio</h1>
+        <p class="header1-para">Explore my journey through tech and beyond.</p>
+        <button id="submit">Contact Me</button>
+    </div>
+    
+    <!-- <form action=""> -->
+        <div class="container-2">
+            <h2 class="header-para">Welcome here</h2>
+            <p class="header-para">Proceed to fill the following form</p>     
+            <div class="your_name">
+                <input type="text" name="Your_name" placeholder="Enter Your Name" class="name">
+            </div>
+          <div class="your_name">
+            <input type="email" name="Your_email" placeholder="Enter Your Email"  class="nameMail">
+        </div>
+            <div class="your_name">
+            <input type="text" name="Your_gender" placeholder="Enter Your Gender"  class="nameGender">
+        </div>
+            <div class="your_name">
+            <input type="password" name="Your_password" placeholder="Enter Your Password"  class="namePassword">
+        </div> 
+            <button  class="login">Log in</button>    
+        </div>
+    <!-- </form> -->
+   
+    <script src="index.js"></script>
+</body>
+
+</html>
